@@ -23,7 +23,7 @@
     "build": "tsc && vite build",
     "lint": "eslint . --fix",
     "test": "pnpm lint && vitest run --coverage",
-    "release": "pnpm run lint && pnpm run test && pnpm run build && changelogen --release && git push --follow-tags && pnpm publish"
+    "release": "pnpm run test && pnpm run build && changelogen --release && git push --follow-tags && pnpm publish"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.4",
