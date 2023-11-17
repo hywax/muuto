@@ -1,4 +1,20 @@
 
+## v2.0.0
+
+[compare changes](https://github.com/hywax/muuto/compare/v1.0.0...v2.0.0)
+
+### 🩹 Fixes
+
+- ⚠️  Bad import ([aa46956](https://github.com/hywax/muuto/commit/aa46956))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Bad import ([aa46956](https://github.com/hywax/muuto/commit/aa46956))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v1.0.0
 
 [compare changes](https://github.com/hywax/muuto/compare/v0.0.2...v1.0.0)
