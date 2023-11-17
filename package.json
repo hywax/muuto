@@ -1,0 +1,39 @@
+{
+  "name": "muuto",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@8.10.0",
+  "description": "Word generator in ikea language",
+  "repository": "hywax/mutto",
+  "exports": {
+    ".": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/muuto.js",
+      "require": "./dist/muuto.umd.cjs"
+    }
+  },
+  "main": "./dist/muuto.umd.cjs",
+  "module": "./dist/muuto.js",
+  "types": "./dist/muuto.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --fix",
+    "test": "pnpm lint && vitest run --coverage",
+    "release": "pnpm run lint && pnpm run test && pnpm run build && changelogen --release && git push --follow-tags && pnpm publish"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^1.1.4",
+    "@types/node": "^20.9.0",
+    "@vitest/coverage-v8": "^0.34.6",
+    "changelogen": "^0.5.5",
+    "eslint": "^8.53.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.3",
+    "vitest": "^0.34.6"
+  }
+}
