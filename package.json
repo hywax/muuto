@@ -4,6 +4,7 @@
   "version": "0.0.2",
   "packageManager": "pnpm@8.10.0",
   "description": "Word generator in ikea language",
+  "license": "MIT",
   "repository": "hywax/muuto",
   "exports": {
     ".": {
