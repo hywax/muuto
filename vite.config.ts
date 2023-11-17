@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'src/generator.ts'),
       name: 'Mutto',
-      fileName: 'mutto',
+      fileName: 'muuto',
     },
   },
   plugins: [dts({ rollupTypes: true })],

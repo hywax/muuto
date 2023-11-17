@@ -8,7 +8,7 @@
   "repository": "hywax/muuto",
   "exports": {
     ".": {
-      "types": "./dist/types.d.ts",
+      "types": "./dist/muuto.d.ts",
       "import": "./dist/muuto.js",
       "require": "./dist/muuto.umd.cjs"
     }
