@@ -1,4 +1,16 @@
 
+## v0.0.2
+
+[compare changes](https://github.com/hywax/mutto/compare/v0.0.1...v0.0.2)
+
+### 🤖 CI
+
+- Define CI layout ([7229089](https://github.com/hywax/mutto/commit/7229089))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.0.1
 
 
