@@ -17,6 +17,7 @@
   "module": "./dist/muuto.js",
   "types": "./dist/muuto.d.ts",
   "files": [
+    "!dist/cover.jpg",
     "dist"
   ],
   "scripts": {
