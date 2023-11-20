@@ -1,4 +1,16 @@
 
+## v2.0.1
+
+[compare changes](https://github.com/hywax/muuto/compare/v2.0.0...v2.0.1)
+
+### 🩹 Fixes
+
+- Remove cover from npm release ([0543419](https://github.com/hywax/muuto/commit/0543419))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v2.0.0
 
 [compare changes](https://github.com/hywax/muuto/compare/v1.0.0...v2.0.0)
