@@ -30,12 +30,12 @@
   "devDependencies": {
     "@antfu/eslint-config": "^1.1.4",
     "@types/node": "^20.9.0",
-    "@vitest/coverage-v8": "^0.34.6",
+    "@vitest/coverage-v8": "^1.2.2",
     "changelogen": "^0.5.5",
     "eslint": "^8.53.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
     "vite-plugin-dts": "^3.6.3",
-    "vitest": "^0.34.6"
+    "vitest": "^1.2.2"
   }
 }
