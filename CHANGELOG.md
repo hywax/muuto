@@ -1,4 +1,16 @@
 
+## v2.0.2
+
+[compare changes](https://github.com/hywax/muuto/compare/v2.0.1...v2.0.2)
+
+### 🤖 CI
+
+- Migrate renovate config ([af926a4](https://github.com/hywax/muuto/commit/af926a4))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v2.0.1
 
 [compare changes](https://github.com/hywax/muuto/compare/v2.0.0...v2.0.1)
