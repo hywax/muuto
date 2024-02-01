@@ -9,7 +9,7 @@ devDependencies:
     specifier: ^1.2.1
     version: 1.2.1(eslint@8.56.0)(typescript@5.3.3)(vitest@0.34.6)
   '@types/node':
-    specifier: ^20.11.14
+    specifier: ^20.11.15
     version: 20.11.15
   '@vitest/coverage-v8':
     specifier: ^0.34.6
