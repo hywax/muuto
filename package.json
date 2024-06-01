@@ -2,7 +2,7 @@
   "name": "muuto",
   "type": "module",
   "version": "2.0.2",
-  "packageManager": "pnpm@9.1.2",
+  "packageManager": "pnpm@9.1.4",
   "description": "Word generator in ikea language",
   "license": "MIT",
   "repository": "hywax/muuto",
@@ -29,12 +29,12 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^1.2.1",
-    "@types/node": "^20.12.12",
+    "@types/node": "^20.13.0",
     "@vitest/coverage-v8": "^0.34.6",
     "changelogen": "^0.5.5",
     "eslint": "^8.57.0",
     "typescript": "^5.4.5",
-    "vite": "^5.2.11",
+    "vite": "^5.2.12",
     "vite-plugin-dts": "^3.9.1",
     "vitest": "^0.34.6"
   }
