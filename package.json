@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^1.2.1",
-    "@types/node": "^20.14.14",
+    "@types/node": "^20.14.15",
     "@vitest/coverage-v8": "^0.34.6",
     "changelogen": "^0.5.5",
     "eslint": "^8.57.0",
