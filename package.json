@@ -2,7 +2,7 @@
   "name": "muuto",
   "type": "module",
   "version": "2.0.2",
-  "packageManager": "pnpm@9.7.1",
+  "packageManager": "pnpm@9.8.0",
   "description": "Word generator in ikea language",
   "license": "MIT",
   "repository": "hywax/muuto",
