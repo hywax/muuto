@@ -30,8 +30,8 @@ importers:
         specifier: ^5.4.8
         version: 5.4.8(@types/node@20.16.11)
       vite-plugin-dts:
-        specifier: ^4.2.3
-        version: 4.2.3(@types/node@20.16.11)(rollup@4.21.0)(typescript@5.6.3)(vite@5.4.8(@types/node@20.16.11))
+        specifier: ^4.2.4
+        version: 4.2.4(@types/node@20.16.11)(rollup@4.21.0)(typescript@5.6.3)(vite@5.4.8(@types/node@20.16.11))
       vitest:
         specifier: ^0.34.6
         version: 0.34.6
@@ -665,14 +665,8 @@ packages:
   '@vue/compiler-core@3.5.10':
     resolution: {integrity: sha512-iXWlk+Cg/ag7gLvY0SfVucU8Kh2CjysYZjhhP70w9qI4MvSox4frrP+vDGvtQuzIcgD8+sxM6lZvCtdxGunTAA==}
 
-  '@vue/compiler-core@3.5.7':
-    resolution: {integrity: sha512-A0gay3lK71MddsSnGlBxRPOugIVdACze9L/rCo5X5srCyjQfZOfYtSFMJc3aOZCM+xN55EQpb4R97rYn/iEbSw==}
-
   '@vue/compiler-dom@3.5.10':
     resolution: {integrity: sha512-DyxHC6qPcktwYGKOIy3XqnHRrrXyWR2u91AjP+nLkADko380srsC2DC3s7Y1Rk6YfOlxOlvEQKa9XXmLI+W4ZA==}
-
-  '@vue/compiler-dom@3.5.7':
-    resolution: {integrity: sha512-GYWl3+gO8/g0ZdYaJ18fYHdI/WVic2VuuUd1NsPp60DWXKy+XjdhFsDW7FbUto8siYYZcosBGn9yVBkjhq1M8Q==}
 
   '@vue/compiler-sfc@3.5.10':
     resolution: {integrity: sha512-to8E1BgpakV7224ZCm8gz1ZRSyjNCAWEplwFMWKlzCdP9DkMKhRRwt0WkCjY7jkzi/Vz3xgbpeig5Pnbly4Tow==}
@@ -693,9 +687,6 @@ packages:
 
   '@vue/shared@3.5.10':
     resolution: {integrity: sha512-VkkBhU97Ki+XJ0xvl4C9YJsIZ2uIlQ7HqPpZOS3m9VCvmROPaChZU6DexdMJqvz9tbgG+4EtFVrSuailUq5KGQ==}
-
-  '@vue/shared@3.5.7':
-    resolution: {integrity: sha512-NBE1PBIvzIedxIc2RZiKXvGbJkrZ2/hLf3h8GlS4/sP9xcXEZMFWOazFkNd6aGeUCMaproe5MHVYB3/4AW9q9g==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -2304,8 +2295,8 @@ packages:
     engines: {node: '>=v14.18.0'}
     hasBin: true
 
-  vite-plugin-dts@4.2.3:
-    resolution: {integrity: sha512-O5NalzHANQRwVw1xj8KQun3Bv8OSDAlNJXrnqoAz10BOuW8FVvY5g4ygj+DlJZL5mtSPuMu9vd3OfrdW5d4k6w==}
+  vite-plugin-dts@4.2.4:
+    resolution: {integrity: sha512-REcYoxO90Pi8c0P1J7XAa/nVwNVGkX2eYkBEIfFSfcKE4g1W8sB0R23a7SU3aLEMfdOdb0SVHq3JlJ+Qb6gjgA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       typescript: '*'
@@ -2761,7 +2752,7 @@ snapshots:
 
   '@rollup/pluginutils@5.1.0(rollup@4.21.0)':
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': 1.0.6
       estree-walker: 2.0.2
       picomatch: 2.3.1
     optionalDependencies:
@@ -3051,23 +3042,10 @@ snapshots:
       estree-walker: 2.0.2
       source-map-js: 1.2.1
 
-  '@vue/compiler-core@3.5.7':
-    dependencies:
-      '@babel/parser': 7.25.6
-      '@vue/shared': 3.5.7
-      entities: 4.5.0
-      estree-walker: 2.0.2
-      source-map-js: 1.2.0
-
   '@vue/compiler-dom@3.5.10':
     dependencies:
       '@vue/compiler-core': 3.5.10
       '@vue/shared': 3.5.10
-
-  '@vue/compiler-dom@3.5.7':
-    dependencies:
-      '@vue/compiler-core': 3.5.7
-      '@vue/shared': 3.5.7
 
   '@vue/compiler-sfc@3.5.10':
     dependencies:
@@ -3094,19 +3072,17 @@ snapshots:
   '@vue/language-core@2.1.6(typescript@5.6.3)':
     dependencies:
       '@volar/language-core': 2.4.5
-      '@vue/compiler-dom': 3.5.7
+      '@vue/compiler-dom': 3.5.10
       '@vue/compiler-vue2': 2.7.16
-      '@vue/shared': 3.5.7
+      '@vue/shared': 3.5.10
       computeds: 0.0.1
-      minimatch: 9.0.3
+      minimatch: 9.0.5
       muggle-string: 0.4.1
       path-browserify: 1.0.1
     optionalDependencies:
       typescript: 5.6.3
 
   '@vue/shared@3.5.10': {}
-
-  '@vue/shared@3.5.7': {}
 
   acorn-jsx@5.3.2(acorn@8.11.3):
     dependencies:
@@ -4920,7 +4896,7 @@ snapshots:
       - supports-color
       - terser
 
-  vite-plugin-dts@4.2.3(@types/node@20.16.11)(rollup@4.21.0)(typescript@5.6.3)(vite@5.4.8(@types/node@20.16.11)):
+  vite-plugin-dts@4.2.4(@types/node@20.16.11)(rollup@4.21.0)(typescript@5.6.3)(vite@5.4.8(@types/node@20.16.11)):
     dependencies:
       '@microsoft/api-extractor': 7.47.7(@types/node@20.16.11)
       '@rollup/pluginutils': 5.1.0(rollup@4.21.0)
